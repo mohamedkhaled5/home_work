@@ -1,21 +1,19 @@
 void main() {
-  // List<int> nums = [2, 7, 11, 15];
-  List<int> nums = [3, 2, 4];
-  // List<int> nums = [3,3];
+  List<int> nums = [2, 7, 11, 15];
+  // List<int> nums = [3, 2, 4];
+  // List<int> nums = [3, 3];
 
-
-  int defult ;
-
-  int target = 6;
+  int target = 26;
 
   for (int j = 0; j < nums.length; j++) {
-    for (int i = 1; i < nums.length; i++) {
-      if ((defult = nums[j]) + nums[i] == target) {
-        if (nums.indexOf(nums[j]) == nums.indexOf(nums[i])) {
-          print('not found');
-          return;
-        }
-        print('index [${nums.indexOf(nums[j])}] & index [${nums.indexOf(nums[i])}]');
+    for (int i = j + 1; i < nums.length; i++) {
+      if ((nums[j]) + nums[i] == target) {
+        // if (nums.indexOf(nums[j]) == nums.indexOf(nums[i])) {
+        //   print('not found');
+        //   return;
+        // }
+        // print('index [${nums.indexOf(nums[j])}] & index [${nums.indexOf(nums[i])}]');
+        print('index [$j] & index [$i]');
         return;
       }
     }
