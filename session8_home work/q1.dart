@@ -16,5 +16,6 @@ class Calculator {
   int? addNumbers(num1, num2) {
     int sum = num1 + num2;
     print(sum);
+    return null;
   }
 }

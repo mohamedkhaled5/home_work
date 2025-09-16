@@ -16,6 +16,7 @@ class Employee {
   num? giveRaise(int amount) {
     salary += amount;
     print(salary);
+    return null;
   }
 
   Employee(this.name, this.salary) {}
