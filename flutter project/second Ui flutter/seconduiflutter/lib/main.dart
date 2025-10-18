@@ -5,7 +5,7 @@ void main() {
 }
 
 class secondui extends StatelessWidget {
-  secondui();
+  const secondui({super.key});
 
   @override
   Widget build(BuildContext context) {
