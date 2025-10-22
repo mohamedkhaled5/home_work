@@ -3,12 +3,12 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(thirddesign());
+  runApp(Stateapp());
 }
 
 // the main app
-class thirddesign extends StatelessWidget {
-  const thirddesign({super.key});
+class Stateapp extends StatelessWidget {
+  const Stateapp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -37,8 +37,9 @@ class mainuidesign extends StatelessWidget {
         // featureswidget(),
         listtilewidget(),
         SizedBox(height: 20),
+        Spacer(),
         settingsbuttonwidget(),
-        SizedBox(height: 20),
+        SizedBox(height: 50),
       ],
     );
   }
