@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class WeightAndAgeState extends StatefulWidget {
-   final int weight;
+  final int weight;
   final int age;
   final ValueChanged<int> onWeightChanged;
   final ValueChanged<int> onAgeChanged;
@@ -10,7 +10,7 @@ class WeightAndAgeState extends StatefulWidget {
     super.key,
     required this.onWeightChanged,
     required this.onAgeChanged,
-     required this.weight,
+    required this.weight,
     required this.age,
   });
 
@@ -102,13 +102,25 @@ class _WeightAndAge extends State<WeightAndAgeState> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Color(0xff4A4E5F),
+                ),
                 onPressed: onMinus,
-                child: const Text('-', style: TextStyle(fontSize: 40)),
+                child: const Text(
+                  '-',
+                  style: TextStyle(fontSize: 40, color: Colors.white),
+                ),
               ),
               const SizedBox(width: 20),
               ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Color(0xff4A4E5F),
+                ),
                 onPressed: onPlus,
-                child: const Text('+', style: TextStyle(fontSize: 40)),
+                child: const Text(
+                  '+',
+                  style: TextStyle(fontSize: 40, color: Colors.white),
+                ),
               ),
             ],
           ),
