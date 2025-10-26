@@ -5,7 +5,7 @@ class HeightWidget extends StatefulWidget {
   final ValueChanged<double> onHeightChanged;
   const HeightWidget({
     super.key,
-    required this.onHeightChanged,
+    required this.onHeightChanged, //final void Function(double) onHeightChanged;
     required this.height,
   });
 

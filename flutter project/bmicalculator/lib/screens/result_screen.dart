@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import '../widgets/calculate_button.dart';
 
 class ResultPage extends StatelessWidget {
   final double bmi;

@@ -3,7 +3,6 @@ import '../widgets/gender_selector.dart';
 import '../widgets/height_widget.dart';
 import '../widgets/weight_age_widget.dart';
 import '../widgets/calculate_button.dart';
-import 'result_screen.dart';
 
 class MainUiDesign extends StatefulWidget {
   const MainUiDesign({super.key});

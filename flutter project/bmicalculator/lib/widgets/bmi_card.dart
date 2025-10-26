@@ -18,7 +18,7 @@ class BmiCalculatorReuse extends StatelessWidget {
       width: 300,
       height: 300,
       decoration: BoxDecoration(
-        color: isSelected ? Colors.pinkAccent : const Color(0xff15152F),
+        color: isSelected ? Color(0xff060924) : const Color(0xff15152F),
         borderRadius: BorderRadius.circular(15),
         boxShadow: const [
           BoxShadow(color: Colors.black12, blurRadius: 5, offset: Offset(2, 2)),
